@@ -13,7 +13,7 @@ bool substring(char* a, char* b) {
                 break;
             }
             j++;
-.        }
+        }
         isMatched = isCurrentMatched;
         i++;
     }
@@ -23,7 +23,7 @@ bool substring(char* a, char* b) {
 
 int main() {
     // Greetings
-    std::cout<< " Point toi chars\n\n\n";
+    std::cout<< " Point to chars\n\n\n";
 
     // Creating vars
     char* a = "Hello world";
@@ -32,6 +32,6 @@ int main() {
 
     char* c = "banana";
 
-    std::cout << substring(a, b) << " " << substring(a, c);
+    std::cout << std::boolalpha << substring(a, b) << " " << substring(a, c);
 
 }
